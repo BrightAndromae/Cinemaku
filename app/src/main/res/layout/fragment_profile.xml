@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D254B"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Pengaturan"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Pengaturan akun"
+                android:textColor="#40FFFFFF"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSettingPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_pengaturan_option"
+                android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+                android:gravity="start|center"
+                android:text="Ubah password"
+                android:textAllCaps="false"
+                android:textColor="#FFF"
+                android:textSize="15dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSettingEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_pengaturan_option"
+
+                android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+                android:gravity="start|center"
+                android:text="Ubah Email"
+                android:textAllCaps="false"
+                android:textColor="#FFF"
+                android:textSize="15dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSettingLokasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_pengaturan_option"
+
+                android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+                android:gravity="start|center"
+                android:text="Lokasi saya"
+                android:textAllCaps="false"
+                android:textColor="#FFF"
+                android:textSize="15dp">
+
+            </androidx.appcompat.widget.AppCompatButton>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Pengaturan aplikasi"
+                android:textColor="#40FFFFFF"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSettingBahasa"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_pengaturan_option"
+                android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+                android:gravity="start|center"
+                android:text="Bahasa"
+                android:textAllCaps="false"
+                android:textColor="#FFF"
+                android:textSize="15dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnHistoryTicket"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_pengaturan_option"
+
+                android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+                android:gravity="start|center"
+                android:text="History Ticket"
+                android:textAllCaps="false"
+                android:textColor="#FFF"
+                android:textSize="15dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSettingNotifikasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_pengaturan_option"
+                android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+                android:gravity="start|center"
+                android:text="Notifikasi aplikasi"
+                android:textAllCaps="false"
+                android:textColor="#FFF"
+
+                android:textSize="15dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSettingLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_pengaturan_option"
+                android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+                android:gravity="start|center"
+                android:text="Logout"
+
+                android:textAllCaps="false"
+                android:textColor="#FFF"
+                android:textSize="15dp">
+
+            </androidx.appcompat.widget.AppCompatButton>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

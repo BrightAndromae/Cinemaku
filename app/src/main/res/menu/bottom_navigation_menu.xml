@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/navigation_home"
+            android:icon="@drawable/ic_bottom_nav_home"
+            android:title="Beranda" />
+        <item
+            android:id="@+id/navigation_add_buku"
+            android:icon="@drawable/ic_bottom_nav_ticket"
+            android:title="Tiket" />
+
+        <item
+            android:id="@+id/navigation_borrowed"
+            android:icon="@drawable/ic_bottom_nav_point"
+            android:title="Poin" />
+
+        <item
+            android:id="@+id/navigation_profile"
+            android:icon="@drawable/ic_bottom_nav_profile"
+            android:title="Akun" />
+
+</menu>
+
+

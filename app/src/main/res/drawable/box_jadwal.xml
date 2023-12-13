@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF" /> <!-- Set your custom color here with 60% opacity -->
+    <alpha android:alpha="0.6" />
+    <corners android:radius="20dp" /> <!-- Corner radius -->
+</shape>

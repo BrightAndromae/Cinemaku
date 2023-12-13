@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/drawable/bottom_nav_color_state.xml" value="0.2255" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/drawable/button_next_process.xml" value="0.2465" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/drawable/button_orange.xml" value="0.2545" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/drawable/button_pengaturan_option.xml" value="0.2255" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/drawable/button_select_category_main_page_active.xml" value="0.1465" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/drawable/button_select_category_main_page_nonactive.xml" value="0.1455" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/drawable/button_trailer_play.xml" value="0.2475" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.2255" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/drawable/ic_baseline_seat.xml" value="0.2475" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/drawable/ic_bottom_nav_big_ticket.xml" value="0.2465" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/drawable/ic_bottom_nav_home.xml" value="0.2255" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/drawable/ic_bottom_nav_point.xml" value="0.2465" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/drawable/ic_bottom_nav_test.xml" value="0.2255" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/drawable/ic_bottom_nav_ticket.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/drawable/ic_bottom_nav_tiket.xml" value="0.2255" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/drawable/landing_page_button.xml" value="0.225" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/drawable/login_input.xml" value="0.1455" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/drawable/login_page_button.xml" value="0.1455" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/drawable/search_main_page.xml" value="0.225" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/drawable/select_category_button_main_page.xml" value="0.1465" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/layout/activity_main_dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/layout/activity_main_dashboard_page.xml" value="0.264" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/layout/activity_main_detail_film.xml" value="0.152" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/layout/activity_main_fragment_tiket.xml" value="0.25" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/layout/activity_main_login.xml" value="0.176" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/layout/activity_main_payment_summary.xml" value="0.13645833333333332" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/layout/activity_main_process_payment_summary.xml" value="0.264" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/layout/activity_main_process_select_seat.xml" value="0.176" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/layout/activity_main_process_select_show_time.xml" value="0.25" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/layout/activity_main_register.xml" value="0.264" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/layout/fragment_dashboard_page.xml" value="0.25" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/layout/fragment_point.xml" value="0.25" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/layout/fragment_tiketku.xml" value="0.25" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/CinemaIndonesia/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0E2954"
+    tools:context=".MainProcessSelectShowTime">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+<!--        <TextView-->
+<!--            android:gravity="center"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Jadwal"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="16dp"-->
+<!--            android:textStyle="bold"/>-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pilih Bioskop"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="95dp"
+                    android:layout_height="53dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/box_jadwal"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/checkBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:text="CGV" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="95dp"
+                    android:layout_height="53dp"
+                    android:background="@drawable/box_jadwal"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/checkBoxXXI"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:text="XXI" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="95dp"
+                    android:layout_height="53dp"
+                    android:background="@drawable/box_jadwal"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/checkBoxCinepolis"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:text="Cinepolis" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pilih Hari"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="95dp"
+                    android:layout_height="53dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/box_jadwal"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:text="08 NOV RABU" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="95dp"
+                    android:layout_height="53dp"
+                    android:background="@drawable/box_jadwal"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:text="09 NOV KAMIS" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="95dp"
+                    android:layout_height="53dp"
+                    android:background="@drawable/box_jadwal"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:text="10 NOV JUMAT" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="95dp"
+                    android:layout_height="53dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/box_jadwal"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:text="11 NOV SABTU" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="95dp"
+                    android:layout_height="53dp"
+                    android:background="@drawable/box_jadwal"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:text="12 NOV MINGGU" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="95dp"
+                    android:layout_height="53dp"
+                    android:background="@drawable/box_jadwal"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:text="13 NOV SENIN" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pilih Waktu"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="95dp"
+                    android:layout_height="53dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/box_jadwal"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:text="12:00" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="95dp"
+                    android:layout_height="53dp"
+                    android:background="@drawable/box_jadwal"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:text="14:15" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="95dp"
+                    android:layout_height="53dp"
+                    android:background="@drawable/box_jadwal"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:text="16:30" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="95dp"
+                    android:layout_height="53dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/box_jadwal"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:text="18:45" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="95dp"
+                    android:layout_height="53dp"
+                    android:background="@drawable/box_jadwal"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:text="21:00" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="95dp"
+                    android:layout_height="53dp"
+                    android:background="@drawable/box_jadwal"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:text="23:30" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnNextStep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/login_page_button"
+                android:text="Pilih Kursi"
+                android:textColor="#FFF" />
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
